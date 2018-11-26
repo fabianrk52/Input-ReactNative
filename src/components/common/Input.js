@@ -4,6 +4,7 @@ import {TextInput, View, Text} from 'react-native';
 const Input = ({label, value, onChangeText, placeholder, secureTextEntry}) =>{
 
     const {inputStyle,labelStyle,containerStyle}=styles;
+
     return(
         <View style={containerStyle}>
             <Text style={labelStyle}>{label}</Text>
@@ -25,16 +26,16 @@ const styles={
         paddingRight:5,
         paddingLeft:5,
         fontSize:18,
-        lineHeight:23,
+        lineHeight:20,
         flex:2
     },
     labelStyle:{
         fontSize:18,
         paddingLeft:20,
-        marginTop:10,
         flex:1
     },
     containerStyle:{
+        marginTop:10,
         height:40,
         flex:1,
         flexDirection:'row',
