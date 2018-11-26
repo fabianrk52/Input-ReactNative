@@ -28,7 +28,7 @@ class LoginForm extends Component{
             <Card>
                 <CardSection>
                     <Input
-                        secureTextEntry="false"
+                        secureTextEntry={false}
                         placeholder="example@example.com"
                         label="Email"
                         value={this.state.email}
@@ -37,7 +37,7 @@ class LoginForm extends Component{
                 </CardSection>
                 <CardSection>
                     <Input
-                        secureTextEntry="true"
+                        secureTextEntry={true}
                         placeholder="Password"
                         label="Password"
                         value={this.state.password}
