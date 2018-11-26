@@ -20,7 +20,7 @@ const styles = {
     height: 60,
     elevation: 5,
     position: 'relative',
-    marginTop:50,
+    marginTop:3,
   },
   textStyle:{
     fontSize:20,
